@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "figshare_api_upload"
+version = "0.1.0"
+description = "cli and tools to prepare and upload neuroimaging data to figshare"
+authors = ["anthony galassi"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pydeface = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
